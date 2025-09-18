@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="51.0" prefWidth="253.0" style="-fx-background-color: bisque;" text="Chi Tiết Nhân Vật" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="65.0" prefHeight="35.0" prefWidth="90.0" style="-fx-background-color: gainsboro;" text="Tên" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="107.0" prefHeight="35.0" prefWidth="90.0" style="-fx-background-color: gainsboro;" text="Tên khác " />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="150.0" prefHeight="35.0" prefWidth="90.0" style="-fx-background-color: gainsboro;" text="Tỉnh thành " />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="200.0" prefHeight="35.0" prefWidth="90.0" style="-fx-background-color: gainsboro;" text="Triều đại" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="254.0" prefHeight="35.0" prefWidth="130.0" style="-fx-background-color: gainsboro;" text="Ngày sinh " />
+      <Label fx:id="tenF" layoutX="104.0" layoutY="65.0" prefHeight="35.0" prefWidth="478.0" />
+      <Label fx:id="tenKhacF" layoutX="104.0" layoutY="107.0" prefHeight="35.0" prefWidth="478.0" />
+      <Label fx:id="tinhThanhF" layoutX="104.0" layoutY="150.0" prefHeight="35.0" prefWidth="478.0" />
+      <Label fx:id="trieuDaiF" layoutX="104.0" layoutY="200.0" prefHeight="35.0" prefWidth="478.0" />
+      <Label fx:id="ngaySinhF" layoutX="144.0" layoutY="254.0" prefHeight="35.0" prefWidth="428.0" />
+      <Button layoutX="487.0" layoutY="20.0" mnemonicParsing="false" onAction="#back" text="Back" />
+   </children>
+</AnchorPane>

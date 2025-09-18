@@ -1,0 +1,9 @@
+.menu{
+    -fx-background-image: url('../CSSStyle/menuScreen.jpg'); 
+    -fx-background-size: cover;
+    -fx-background-align: center;
+}
+.figure{
+    -fx-background-image: url('../CSSStyle/figureScreen.png'); 
+    -fx-background-size: cover;
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="51.0" prefWidth="253.0" style="-fx-background-color: bisque;" text="Chi Tiết Nhân Vật" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="65.0" prefHeight="35.0" prefWidth="90.0" style="-fx-background-color: gainsboro;" text="Tên" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="107.0" prefHeight="35.0" prefWidth="90.0" style="-fx-background-color: gainsboro;" text="Năm sinh" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="150.0" prefHeight="35.0" prefWidth="90.0" style="-fx-background-color: gainsboro;" text="Năm mất" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="200.0" prefHeight="35.0" prefWidth="90.0" style="-fx-background-color: gainsboro;" text="Triều đại" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="254.0" prefHeight="35.0" prefWidth="130.0" style="-fx-background-color: gainsboro;" text="Thời gian trị vì" />
+      <Label alignment="CENTER" layoutX="12.0" layoutY="303.0" prefHeight="35.0" prefWidth="130.0" style="-fx-background-color: gainsboro;" text="Nơi an nghỉ" />
+      <Label alignment="CENTER" layoutX="309.0" layoutY="65.0" prefHeight="35.0" prefWidth="90.0" style="-fx-background-color: gainsboro;" text="Thân phụ" />
+      <Label alignment="CENTER" layoutX="309.0" layoutY="107.0" prefHeight="35.0" prefWidth="90.0" style="-fx-background-color: gainsboro;" text="Thân mẫu" />
+      <Label alignment="CENTER" layoutX="309.0" layoutY="150.0" prefHeight="35.0" prefWidth="93.0" style="-fx-background-color: gainsboro;" text="Tiền nhiệm" />
+      <Label alignment="CENTER" layoutX="309.0" layoutY="200.0" prefHeight="35.0" prefWidth="90.0" style="-fx-background-color: gainsboro;" text="Kế nhiệm" />
+      <Label fx:id="tenF" layoutX="104.0" layoutY="65.0" prefHeight="35.0" prefWidth="190.0" />
+      <Label fx:id="namSinhF" layoutX="104.0" layoutY="107.0" prefHeight="35.0" prefWidth="190.0" />
+      <Label fx:id="namMatF" layoutX="104.0" layoutY="150.0" prefHeight="35.0" prefWidth="190.0" />
+      <Label fx:id="trieuDaiF" layoutX="104.0" layoutY="200.0" prefHeight="35.0" prefWidth="190.0" />
+      <Label fx:id="chaF" layoutX="402.0" layoutY="65.0" prefHeight="35.0" prefWidth="185.0" />
+      <Label fx:id="meF" layoutX="402.0" layoutY="107.0" prefHeight="35.0" prefWidth="185.0" />
+      <Label fx:id="tienNhiemF" layoutX="402.0" layoutY="150.0" prefHeight="35.0" prefWidth="185.0" />
+      <Label fx:id="keNhiemF" layoutX="402.0" layoutY="200.0" prefHeight="35.0" prefWidth="185.0" />
+      <Label fx:id="triViF" layoutX="144.0" layoutY="254.0" prefHeight="35.0" prefWidth="334.0" />
+      <Label fx:id="anNghiF" layoutX="144.0" layoutY="303.0" prefHeight="35.0" prefWidth="334.0" />
+      <Button layoutX="487.0" layoutY="20.0" mnemonicParsing="false" onAction="#back" text="Back" />
+   </children>
+</AnchorPane>
